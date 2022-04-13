@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(221, 188, 134);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main{
+  background: rgb(108, 32, 32);
+  width: 500px;
+  margin: 0% auto;
+  height: 650px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 30px;
+}
+.main:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.header{
+  color: aliceblue;
+}
+.input{
+  background: #000;
+  width: 350px;
+  height: 25px;
+  padding: 10px;
+  border: 1px solid rgb(85, 72, 72);
+  border-radius: 15px;
+  margin-right: 10px;
+  color:rgb(124, 106, 106)
+}
+.input:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.add-button{
+  background: rgb(221, 188, 134);
+  color: #000;
+  border: 1px solid rgb(85, 72, 72);
+  border-radius: 15px;
+  margin-left: 10px;
+  width: 80px;
+  height: 45px;
+  font-weight: 600;
+  color: rgb(108, 32, 32);
+}
+.add-button:hover{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.task-list{
+  text-align: left;
+  list-style: none;
+  padding: 20px;
+}
+.todo-list{
+  border: 1px solid rgb(122, 114, 114);
+  border-radius: 5px;
+  width: 96%;
+  padding: 10px;
+  display: grid;
+  margin-bottom: 10px;
+}
+.butt{
+  width: 60px;
+  margin-right: 0%;
+  margin-left: auto;
+  grid-column: 2;
+}
+.list{
+  background-color: rgb(108, 32, 32);
+  font-size: 20px;
+  color: rgb(165, 165, 165);
+  border: none;
+  grid-column: 1;
+}
+.doSomething{
+  text-decoration: line-through;
+}
+
